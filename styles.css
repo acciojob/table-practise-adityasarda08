@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+
+
+.table {
+  background-color: yellow;
+  border: 1px solid black;
+  border-collapse: separate;
+  font-family: "Times New Roman", serif;
+}
+.table caption {
+  caption-side: top;
+  font-size: 32px;  
+  text-align: center;
+}
+.table th,
+.table td {
+  border:1px solid black;
+  padding: 5px 10px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.table th {
+  text-transform: uppercase;
+}
